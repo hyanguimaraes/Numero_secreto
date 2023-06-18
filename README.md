@@ -15,7 +15,7 @@ Página criada como estudo de caso para prática de JavaScript do curso "JavaScr
 
 Este projeto foi muito legal pois eu nunca pensado em usar reconhecimento de voz em um projeto meu. Foi muito legal usar essa API e não é muito difícil aplicá-la! Estou satisfeito de ter conseguido aplicar um novo conhecimento. Vou manter este projeto como exemplo e consulta para futuros projetos que envolvam soluções parecidas.
 
-[🔗 Acesse o projeto](https://hyanguimaraes.github.io/Numero_secreto/)
+[🔗 Acesse o projeto](https://numero-secreto-mu-puce.vercel.app/)
 
 [📚 Página do curso "JavaScript: Validações e Reconhecimento de voz"](https://cursos.alura.com.br/course/javascript-validacoes-reconhecimento-voz)
 
