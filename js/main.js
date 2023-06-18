@@ -9,9 +9,11 @@ document.querySelector("#btn").addEventListener("click", () => {
 const menorValor = 0;
 const maiorValor = 1000;
 const numeroAleatorio = geraNumero();
-    //Captura o span menorValor do HTML para uso no JS;
+
+//Captura o span menorValor do HTML para uso no JS;
 const elementoMenorValor = document.getElementById("menorValor");
-    //Captura o span maiorValor do HTML para uso no JS;
+
+//Captura o span maiorValor do HTML para uso no JS;
 const elementoMaiorValor = document.getElementById("maiorValor");
 
 //Função que gera um número randômico entre o menor valor e o maior valor (inclusive).
