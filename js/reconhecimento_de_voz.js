@@ -55,6 +55,7 @@ function onSpeak(fala) {
     chute = fala.results[0][0].transcript;
     //chama a função "Exibe chute na tela", criada abaixo:
     exibeChuteNaTela(chute);
+    verificaSeOChutePossuiUmValorValido(chute);
 }
 
 //Função que recebe o parâmetero "chute", criado como variável na função "On speak" e cria, dentro do "Elemento chute", no HTML, as tags div e span;
@@ -65,3 +66,5 @@ function exibeChuteNaTela(chute){
         <span class="box">${chute}</span>
     `
 }
+
+recognition.addEventListener('end', () => recognition.start());

@@ -4,7 +4,6 @@ document.querySelector("#btn").addEventListener("click", () => {
 })
 
 //LÓGICA PARA SORTEIO DO NÚMERO ALEATÓRIO ENTRE 0 E 1000;
-
 // Constantes e variáveis;
 const menorValor = 0;
 const maiorValor = 1000;

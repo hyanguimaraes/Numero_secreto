@@ -24,9 +24,10 @@
     top: 4%;
     left: 2%;
     background-image: var(--icone);
+    background-position: center;
     background-size: 35px;
     background-repeat: no-repeat;
-    padding: 67px;
+    padding: 35px;
     cursor: pointer; 
   }
 
@@ -47,8 +48,12 @@ body{
     margin: 0;
 }
 
-h1 {
+h1, h2 {
     font-size: 5em;
+}
+
+h2, strong{
+    font-weight: 700;
 }
 
 h3 {
@@ -67,4 +72,16 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+#recomecar{
+    padding: 1em;
+    border: 2px solid var(--corTerciaria);
+    border-radius: 8px;
+    background-color: var(--corSecundaria);
+    font-family: var(--fontePrincipal);
+    color: var(--corFonte);
+    font-size: 1em;
+    margin: 20px;
+    cursor: pointer;
 }
