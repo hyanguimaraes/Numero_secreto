@@ -5,8 +5,18 @@ function verificaSeOChutePossuiUmValorValido(chute){
 
     //Condicional que chama a função "Chute Inválido" e se retornar true, mostra no console a mensagem "Valor inválido";
     if(chuteInvalido(numero)) {
+        if (chute.toUpperCase() === "GAME OVER") {
+
+            document.body.innerHTML =
+                `
+                <h2>Game Over!!!</h2>
+                <h3>Pressione o botão para jogar novamente</h3>
+                <button id="recomecar" type="reset" onClick="window.location.reload();">Jogar novamente</button>
+                `
+        } else {
         elementoChute.innerHTML += '<div>"Valor inválido"</div>';
         return
+        }
     }
 
     //Condicional que chama a função "Número for maior ou menor que valor permitido" e se retornar true, mostra no console a mensagem "Valor inválido: Fale um número entre" ...

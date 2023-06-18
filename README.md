@@ -1,19 +1,19 @@
 <h1 align="center"> Número Secreto </h1>
 
-![](https://github.com/hyanguimaraes/Numero_secreto/blob/main/Numero_secreto.gif?raw=true#vitrinedev)
+![](https://github.com/hyanguimaraes/Numero_secreto/blob/main/img/Numero_secreto.gif?raw=true#vitrinedev)
 
 ![](https://img.shields.io/github/forks/hyanguimaraes/Numero_secreto?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/Numero_secreto?style=plastic)
 
 📝 Descrição do projeto
 ---
 ALTERAR A DESCRIÇÃO
-Página do Mochila de viagem: Faça sua lista de itens indispensáveis para levar na sua mochila. Os dados são todos salvos localmente no seu navegador. Sua lista não é perdida caso você feche a guia ou a janela do navegador!
+Jogo do número secreto: Utilizando reconhecimento de voz, tente descobrir qual o número secreto entre 0 e 1000! O jogo te dará dicas e uma nova chance a cada chute. (para que funcione, é necessário permitir o uso do microfone do dispositivo, caso contrário, não é possível usar o reconhecimento de voz).
 
-Página criada como estudo de caso para prática de JavaScript do curso "JavaScript: Validações e Reconhecimento de voz" da [Alura](https://www.alura.com.br/) (link abaixo). A ideia aqui era praticar o uso do JavaScript, então, a escola forneceu os arquivos HTML e CSS. Foram feitas algumas alterações em ambos, como a criação de ids em tags do HTML e a estilização do botão de remoção de item no CSS, mas o foco foi criar toda a lógica de criação de tags de list items automaticamente através do JS.
+Página criada como estudo de caso para prática de JavaScript do curso "JavaScript: Validações e Reconhecimento de voz" da [Alura](https://www.alura.com.br/) (link abaixo). Todos os arquivos foram criados do zero mas o principal aqui era praticar o uso do JavaScript e a aplicação da _Web Speech API_. Toda a estilização foi feita por mim, com excessão do degradê usado como fundo da página. Com o auxílio do ChatGPT, partindo do _prompt_ "Crie um fundo degradê em CSS partindo da cor azul índigo para tons mais claros" obtive a base do degradê que depois ajustei um pouco para ficar de meu agrado.
 
-Ao clicar no botão de Adicionar, os valores digitados nos inputs são armazenados em um objeto "Item Atual" de atributos "nome", "quantidade" e "id". Feita a verificação se este item já existe ou não, o mesmo é adicionado a um array de objetos chamado "Itens" que é transformado em texto e armazenado no Local Storage no navagador, tornando possível que, mesmo que a página seja fechada ou atualizada o JS irá imediatamente recriar a lista usando estes dados que foram armazenados.
+**Lógica:** Assim que a página é carregada um número aleatório entre 0 e 1000 é gerado e o reconhecimento de voz já é ativado. O usuário então deve dizer um número como chute. O programa irá verificar se o chute é um dado válido. Sendo válido, se for um acerto, a página muda completamente, comemorando o acerto do usuário. Se não for um acerto, mas for um dado válido, dicas irão aparecer na tela, dizendo se o chute é maior ou menor que o número secreto. No caso de acerto, aparecerá um botão para recomeçar o jogo, se o usuário assim desejar.
 
-Este projeto foi muito desafiador! Praticamente tudo o que foi passado era novo pra mim. Estou satisfeito de ter conseguido finalizar e ter este projeto agora como exemplo e consulta para futuros projetos que envolvam soluções parecidas.
+Este projeto foi muito legal pois eu nunca pensado em usar reconhecimento de voz em um projeto meu. Foi muito legal usar essa API e não é muito difícil aplicá-la! Estou satisfeito de ter conseguido aplicar um novo conhecimento. Vou manter este projeto como exemplo e consulta para futuros projetos que envolvam soluções parecidas.
 
 [🔗 Acesse o projeto](https://hyanguimaraes.github.io/Numero_secreto/)
 
@@ -24,6 +24,8 @@ Este projeto foi muito desafiador! Praticamente tudo o que foi passado era novo 
 - ``HTML5``
 - ``CSS3``
 - ``JavaScript``
+- ``Web Speech API``
+- ``ChatGPT``
 
 ✍🏻 Autor
 ---
