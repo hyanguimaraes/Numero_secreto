@@ -67,4 +67,5 @@ function exibeChuteNaTela(chute){
     `
 }
 
+//Reinicia o reconhecimento de voz quando ele acaba. Assim é possível fazer vários chutes sem que o jogo acabe no meio;
 recognition.addEventListener('end', () => recognition.start());
