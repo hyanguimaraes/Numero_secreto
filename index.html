@@ -6,12 +6,22 @@
     <!-- TÍTULO -->
     <title>Número Secreto</title>
 
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <!-- BOTÃO DE TEMA -->
+    <input id="btn" type="button">
+    <label for="btn" class="mudarTema"></label>
+
+    <!-- CONTEÚDO -->
     <h1>Acerte o número secreto</h1>
     
     <h3>O número secreto está entre <span id="menorValor">0</span> e <span id="maiorValor">100</span></h3>
@@ -21,5 +31,7 @@
         <span class="box">20</span>
         <div>O número secreto é maior <i class="fa-solid fa-up-long fa-bounce"></i></div>
     </div>
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
