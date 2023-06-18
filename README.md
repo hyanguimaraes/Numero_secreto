@@ -6,7 +6,6 @@
 
 📝 Descrição do projeto
 ---
-ALTERAR A DESCRIÇÃO
 Jogo do número secreto: Utilizando reconhecimento de voz, tente descobrir qual o número secreto entre 0 e 1000! O jogo te dará dicas e uma nova chance a cada chute. (para que funcione, é necessário permitir o uso do microfone do dispositivo, caso contrário, não é possível usar o reconhecimento de voz).
 
 Página criada como estudo de caso para prática de JavaScript do curso "JavaScript: Validações e Reconhecimento de voz" da [Alura](https://www.alura.com.br/) (link abaixo). Todos os arquivos foram criados do zero mas o principal aqui era praticar o uso do JavaScript e a aplicação da _Web Speech API_. Toda a estilização foi feita por mim, com excessão do degradê usado como fundo da página. Com o auxílio do ChatGPT, partindo do _prompt_ "Crie um fundo degradê em CSS partindo da cor azul índigo para tons mais claros" obtive a base do degradê que depois ajustei um pouco para ficar de meu agrado.
